@@ -8,5 +8,16 @@ git branch -d dev
 git push origin dev
 
 ```
+## how to list tags
+
+git tag -l
+## how to delete tag locally 
+
+git tag -d v1.7
+
+## how to delete tag remotely
+
+git push origin --delete v1.7
+ 
 
 
